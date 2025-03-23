@@ -54,7 +54,7 @@ func main() {
 
 	// Пошук найдорожчого автомобіля
 	mostExpensiveCar := FindMostExpensiveCar(cars)
-	fmt.Println("Найдорожчий автомобіль:", mostExpensiveCar.Model, "Ціна:", mostExpensiveCar.Price)
+	fmt.Println("Найдорожчий автомобіль:", mostExpensiveCar.Model, "-", mostExpensiveCar.Price)
 
 	// Перевірка на вік авто
 	for _, car := range cars {
