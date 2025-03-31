@@ -1,0 +1,14 @@
+mode: set
+yourmodule/main.go:23.40,26.2 2 1
+yourmodule/main.go:29.43,31.27 2 1
+yourmodule/main.go:31.27,32.41 1 1
+yourmodule/main.go:32.41,34.4 1 1
+yourmodule/main.go:36.2,36.25 1 1
+yourmodule/main.go:39.13,60.27 12 0
+yourmodule/main.go:60.27,61.31 1 0
+yourmodule/main.go:61.31,63.4 1 0
+yourmodule/main.go:67.2,68.27 2 0
+yourmodule/main.go:68.27,70.3 1 0
+yourmodule/main.go:73.2,74.43 2 0
+yourmodule/main.go:74.43,76.28 2 0
+yourmodule/main.go:76.28,78.4 1 0
