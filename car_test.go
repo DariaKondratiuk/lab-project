@@ -10,10 +10,10 @@ func TestIsOlderThan10Years(t *testing.T) {
 		car      Car
 		expected bool
 	}{
-		{"Новий автомобіль", Car{Year: 2025}, false},    // Новий автомобіль
-		{"Автомобілю 10 років", Car{Year: 2015}, false}, // Автомобіль рівно 10 років
-		{"Авто старше 10 років", Car{Year: 2000}, true}, // Авто старше 10 років
-		{"Авто з майбутнього", Car{Year: 2100}, false},  // Авто з майбутнього
+		{"Новий автомобіль", Car{Year: 2025}, false},
+		{"Автомобілю 10 років", Car{Year: 2015}, false},
+		{"Авто старше 10 років", Car{Year: 2000}, true},
+		{"Авто з майбутнього", Car{Year: 2100}, false},
 	}
 
 	for _, tt := range tests {
@@ -33,9 +33,9 @@ func TestFindMostExpensiveCar(t *testing.T) {
 		expected Car
 	}{
 		{"Найдорожче авто", []Car{{Model: "A", Price: 10000}, {Model: "B", Price: 20000}}, Car{Model: "B", Price: 20000}},
-		{"Всі авто однакові за ціною", []Car{{Model: "A", Price: 5000}, {Model: "B", Price: 5000}}, Car{Model: "A", Price: 5000}}, // Перевірка одного значення
-		{"Порожній список", []Car{}, Car{}},                                                 // Порожній список
-		{"Один автомобіль", []Car{{Model: "C", Price: 3000}}, Car{Model: "C", Price: 3000}}, // Один автомобіль
+		{"Всі авто однакові за ціною", []Car{{Model: "A", Price: 5000}, {Model: "B", Price: 5000}}, Car{Model: "A", Price: 5000}},
+		{"Порожній список", []Car{}, Car{}},
+		{"Один автомобіль", []Car{{Model: "C", Price: 3000}}, Car{Model: "C", Price: 3000}},
 	}
 
 	for _, tt := range tests {
